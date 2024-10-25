@@ -1,6 +1,6 @@
-var num1 = +prompt('enter the first number : ')
-var useroperator = prompt('enter your operator : \n 1. + \n 2. - \n 3. * \n 4. / \n 5. **')
-var num2 = +prompt('enter the second number : ')
+var num1 = +prompt('Enter the first number : ')
+var useroperator = prompt('Enter your operator : \n 1. + \n 2. - \n 3. * \n 4. / \n 5. **')
+var num2 = +prompt('Enter the second number : ')
 
 if (useroperator === '1') {
     sum(num1, num2)
